@@ -14,15 +14,35 @@
 </head>
 
 <body>
-   <div>
-      <img src="Frame 1.svg" alt="">
-      <h1>
-         Launching Soon!
-      </h1>
-      <p>We are currently creating our new website!</p>
-      <p>E: <a href="mailto:martina@mdbinteriors.au">martina@mdbinteriors.au</a></p>
-      <p>P: <a href="tel:0478 404 141">0478 404 141</a></p>
-      <p>P: <a href="https://www.instagram.com/mdbinteriors.au/">@mdbinteriors.au</a></p>
+   <div class="page">
+      <img class="corner-logo" src="Frame 1.svg" alt="mdb interiors logo">
+      <main class="content">
+         <h1>Launching Soon!</h1>
+         <p>We are currently creating our new website!</p>
+         <div class="contact-links">
+            <a class="contact-link" href="mailto:martina@mdbinteriors.au" aria-label="Email martina@mdbinteriors.au" title="Email">
+               <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M4 8l8 5 8-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+               </svg>
+               <span class="sr-only">Email</span>
+            </a>
+            <a class="contact-link" href="tel:0478 404 141" aria-label="Call 0478 404 141" title="Call">
+               <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3.5 5.25a2 2 0 0 1 2-2h2.18a1.5 1.5 0 0 1 1.45 1.08l.82 3.06a1.5 1.5 0 0 1-.39 1.5l-.73.73a1.9 1.9 0 0 0 0 2.68l3.32 3.32a1.9 1.9 0 0 0 2.68 0l.73-.73a1.5 1.5 0 0 1 1.5-.39l3.06.82a1.5 1.5 0 0 1 1.08 1.45v2.18a2 2 0 0 1-2 2h-1.25c-8.14 0-14.75-6.61-14.75-14.75z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+               </svg>
+               <span class="sr-only">Phone</span>
+            </a>
+            <a class="contact-link" href="https://www.instagram.com/mdbinteriors.au/" target="_blank" rel="noopener noreferrer" aria-label="Visit @mdbinteriors.au on Instagram" title="Instagram">
+               <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3.5" y="3.5" width="17" height="17" rx="4" fill="none" stroke="currentColor" stroke-width="1.5" />
+                  <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.5" />
+                  <circle cx="17.5" cy="6.5" r="1.3" fill="currentColor" />
+               </svg>
+               <span class="sr-only">Instagram</span>
+            </a>
+         </div>
+      </main>
    </div>
 
 </body>
