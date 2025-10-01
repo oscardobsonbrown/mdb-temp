@@ -265,10 +265,11 @@ p {
 
 @media (max-width: 600px) {
     body {
+        min-height: 100dvh;
         background-image: linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)), url("mobile.webp");
-        background-size: cover;
-        background-position: center -80px;
-        background-repeat: no-repeat;
+        background-size: cover, cover;
+        background-position: center, center top;
+        background-repeat: no-repeat, no-repeat;
     }
 
     h1 {
